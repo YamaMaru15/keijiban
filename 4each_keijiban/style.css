@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku GothicProN","メイリオ",sans-serif;
+}
+
+.header-nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding: 0px;
+}
+
+.header-nav li {
+    display: inline-block;
+    color: white;
+    line-height: 50px;
+    padding-left: 50px;
+}
+
+main {
+    margin: 0 20px 0 10px;
+}
+
+.left {
+    float: left;
+    width: 70%;
+}
+
+.left h1 {
+    border-bottom: 1px solid black ;
+    border-left: 5px solid black ;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.kiji {
+    border: 3px #bfbfbf solid;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.kiji h3 {
+    border-bottom: 3px #bfbfbf solid;
+    padding-left: 5px;
+}
+
+.contents {
+    padding:10px 5px 5px 5px;
+}
+
+/* フォーム↓ */
+
+form {
+    background-color: #fbfbfb;
+    padding: 5px;
+    border: 3px #bfbfbf solid;
+    width: 100%;
+    margin-bottom: 15px ;
+}
+
+form h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left: 4px red solid;
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin-left: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+
+form div {
+    padding: 10px 10px 10px 10px;
+}
+
+.text,textarea{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color:white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+.right {
+    float: right;
+    width: 25%;
+    padding-top: 10px;
+}
+
+.right-article-heading {
+    border-bottom: 2px dotted black;
+}
+
+.right-article-list li {
+    list-style: none;
+    line-height: 40px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
